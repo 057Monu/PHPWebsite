@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+section{
+    display: flex;
+    flex-direction: column;
+    /*border: 2px solid cornflowerblue;*/
+    align-items: center;
+}
+
+.div-main{
+    display: flex;
+    flex-direction: column;
+    /*border: 2px solid cadetblue;*/
+}
+
+.view-div{
+    display: flex;
+    flex-direction: row;
+    /*border: 2px solid cyan;*/
+}
+
+.img-content{
+    /*border: 2px solid cadetblue;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    background-color: navajowhite;
+    justify-content: center;
+}
+
+.div-content{
+    /*border: 2px solid crimson;*/
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    width: 50%;
+    font-size: 22px;
+    text-align: justify;
+    padding: 12px;
+    background-color: whitesmoke;
+}
+
+.cart-content{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    /*align-items: center;*/
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #CF9FFF;
+    /*background-color: whitesmoke;*/
+}
+
+.cart-content-total{
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    /*border: 2px solid chartreuse;*/
+    margin: 12px;
+}
+
+.cart-content-total p{
+    /*border: 2px solid chocolate;*/
+    margin: 3px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.div-more-main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 12px;
+    /*border: 2px solid grey;*/
+}
+
+img {
+    /*border: 3px solid chartreuse;*/
+    width: 80%;
+    height: 80%;
+}
+
+.div-more-content {
+    /*border: 2px solid black;*/
+    margin: 12px 12px;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    /*flex-wrap: nowrap;*/
+    align-items: center;
+    width: 21%;
+    height: 100%;
+    font-size: 15px;
+    /*width: 32%;*/
+    padding: 12px;
+    background-color: whitesmoke;
+}
+/*.div-more{*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*}*/
+
+/*.view-div-more{*/
+/*    display: flex;*/
+/*}*/
+
+.order-card{
+    display: flex;
+    flex-direction: row;
+    /*border: 2px solid black;*/
+    padding: 12px;
+    /*margin: 2px;*/
+    /*text-align: center;*/
+}
+
+.order-now a{
+    background-color: gainsboro;
+    color: black;
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.add-cart a{
+    background-color: cadetblue;
+    color: black;
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 16px;
+}
+
+@media screen and (max-width: 768px){
+    body{
+        background-color: aquamarine;
+    }
+}
