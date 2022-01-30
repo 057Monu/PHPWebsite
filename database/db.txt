@@ -1,0 +1,4 @@
+Login User Table
+
+CREATE TABLE User(uid int auto_increment primary key, email varchar(32) not null,
+    username varchar(32) not null, password varchar(128) not null, gender varchar(12) not null)
